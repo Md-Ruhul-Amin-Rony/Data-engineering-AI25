@@ -1,1 +1,286 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="stylesheet" href="/assets/globals-D5_EqkHE.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><link rel="stylesheet" href="/assets/fonts-yKhYizLu.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><link rel="stylesheet" href="/assets/index-4PBh0cLs.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><link rel="stylesheet" href="/assets/app-shared-DHj4jd-G.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><link rel="stylesheet" href="/assets/app-boot-CmdFWRqK.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><link rel="stylesheet" href="/assets/app-lazy-shared-BFr6NeXy.css" nonce="ewtIxmFP6jGncGNY3473kg==" data-precedence="default"/><meta name="theme-color" content="#fcfbf8"/><meta property="csp-nonce" content="ewtIxmFP6jGncGNY3473kg=="/><title>Internal Lovable project</title><meta name="description" content="This Lovable project is only available to authorized workspace members." nonce="ewtIxmFP6jGncGNY3473kg=="/><meta name="robots" content="noindex, nofollow" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/index-CX3_Gaxu.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/app-boot-DSmoEnIf.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-sentry-Dw4hRRNd.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-react-CpWG0IX1.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/rolldown-runtime-hTy8W7Rj.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-datefns-iiuNtnjD.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-motion-DDZ7Z-J6.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/slackPage-D2DIoi3w.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/_eager-BmOruZu_.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/hrLandingPage-nX4BnkQZ.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/forWorkPage-hRlgA3R2.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/forMarketersPage-DeQWwPjg.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/abuseTrademark-Bou4krlo.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/_misc-zs1LPwsQ.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/abuseDmca-DW3NAxgX.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/abuseDisabled-C1lCnBD5.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/abuseCounter-T-Rc9dOT.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/abuseAppeal-B0mGzXk5.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-overlay-_OMgd7JN.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-firebase-AQ64xvEl.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-radix-C4tkfYF5.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-firebase-core-BTqSu8a7.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-tanstack-JVngHMhU.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-base-ui-DLubImiB.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/app-shared-B1H5bML3.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-lodash-Cz-OQOiW.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/workspaceChat-CUd2jxhB.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/slackSettings-CfN01Gp7.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/editorNav-BWwXpCtK.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/checkout-DfP4mFwi.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/btsSweden2026Page-D5ghE8Uv.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/auth-b066rNmE.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/i18n-fn/accountSettings-CXfRlQui.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-util-Bt3YrBMF.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/vendor-schema-BlGzOUPt.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/_authBridge-CJm_YSvK.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/auth-bridge-dAytotMF.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/useHasLoginSessionId-BuVIgm_g.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/useTailscaleConnection-21yBXpyn.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/ui-alert-DzPK0_13.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/app-lazy-shared-C98TEb2B.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="modulepreload" href="/assets/ui-icon-eye-B-M14T-d.js" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="preload" href="/assets/CameraPlainVariable-c48bd243-BhPypTEq.woff2" as="font" type="font/woff2" crossorigin="" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="preload" href="/assets/CameraPlainVariableRegularItalic-8524cd9a-BrZviWSE.woff2" as="font" type="font/woff2" crossorigin="" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon.ico" sizes="48x48" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon.svg" type="image/svg+xml" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/icon.svg" type="image/svg+xml" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192" nonce="ewtIxmFP6jGncGNY3473kg=="/><link rel="apple-touch-icon" href="/apple-touch-icon.png" nonce="ewtIxmFP6jGncGNY3473kg=="/><script nonce="ewtIxmFP6jGncGNY3473kg==">globalThis.__zod_globalConfig={jitless:true}</script><script nonce="ewtIxmFP6jGncGNY3473kg==">window.__BUILD_META__={"sha":"ba9e418f6c3af7ac1b2512c1c9f1973b5d05fa02","buildTime":1785500100000};document.currentScript.remove()</script><style>@view-transition { navigation: auto; }</style><script type="application/ld+json" nonce="ewtIxmFP6jGncGNY3473kg==">{"@context":"https://schema.org","@type":"WebSite","name":"Lovable","url":"https://lovable.dev","description":"Lovable is your superhuman full stack engineer. Chat with AI to build web apps. Sync with GitHub. One-click deploy."}</script></head><body class="flex min-h-dvh flex-col"><a href="#main-content" class="bg-primary text-primary-foreground rounded-1.5 fixed top-4 left-4 z-[9999] px-4 py-2 text-sm font-medium [&amp;:not(:focus-visible)]:sr-only [html:not([data-user-tabbed])_&amp;]:sr-only">Skip to main content</a><script nonce="ewtIxmFP6jGncGNY3473kg==">(function D(e,t,s,c,l){try{const u=document.documentElement,m=localStorage.getItem(e),o=s||(m==="light"||m==="dark"||m==="system"?m:null)||t;let a=o;o==="system"&&(a=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),u.classList.toggle("dark",a==="dark"),u.classList.toggle("light",a==="light"),u.style.colorScheme=a;const f=document.querySelector('meta[name="theme-color"]');f&&f.setAttribute("content",a==="dark"?l:c)}catch{}})("lovable-theme","system",undefined,"#fcfbf8","#1c1c1c")</script><div class="isolate flex min-h-0 flex-1 flex-col"><!--$--><!--$--><div class="flex min-h-dvh items-center justify-center"><output aria-live="polite" class="sr-only">Loading...</output><div class="flex flex-col items-center gap-4"><svg role="img" aria-label="Lovable" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-12 shrink-0"><mask id="_R_161ipitiql76_-mask" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="23" height="24"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.89785 0C10.7074 0 13.7957 3.17898 13.7957 7.10046V9.79908H16.0913C19.9009 9.79908 22.9892 12.9781 22.9892 16.8995C22.9892 20.821 19.9009 24 16.0913 24H0V7.10046C0 3.17898 3.08827 0 6.89785 0Z" fill="url(#_R_161ipitiql76_-gradient)"></path></mask><g mask="url(#_R_161ipitiql76_-mask)"><g filter="url(#_R_161ipitiql76_-filter0)"><ellipse cx="10.0844" cy="12.8114" rx="15.5619" ry="15.9769" fill="#4B73FF"></ellipse></g><g filter="url(#_R_161ipitiql76_-filter1)"><ellipse cx="11.7941" cy="4.04332" rx="19.9306" ry="15.9769" fill="#FF66F4"></ellipse></g><g filter="url(#_R_161ipitiql76_-filter2)"><ellipse cx="15.0451" cy="1.037" rx="15.5619" ry="14.0311" fill="#FF0105"></ellipse></g><g filter="url(#_R_161ipitiql76_-filter3)"><ellipse cx="12.071" cy="4.03913" rx="9.35889" ry="9.60846" fill="#FE7B02"></ellipse></g></g><defs><filter id="_R_161ipitiql76_-filter0" x="-12.6378" y="-10.3257" width="45.4442" height="46.2743" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="3.58011" result="effect1_foregroundBlur"></feGaussianBlur></filter><filter id="_R_161ipitiql76_-filter1" x="-15.2967" y="-19.0938" width="54.1815" height="46.2743" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="3.58011" result="effect1_foregroundBlur"></feGaussianBlur></filter><filter id="_R_161ipitiql76_-filter2" x="-7.67707" y="-20.1544" width="45.4442" height="42.3827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="3.58011" result="effect1_foregroundBlur"></feGaussianBlur></filter><filter id="_R_161ipitiql76_-filter3" x="-4.44806" y="-12.7296" width="33.0382" height="33.5375" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="3.58011" result="effect1_foregroundBlur"></feGaussianBlur></filter><linearGradient id="_R_161ipitiql76_-gradient" x1="7.73627" y1="4.21757" x2="15.0724" y2="23.8669" gradientUnits="userSpaceOnUse"><stop offset="0.025" stop-color="#FF8E63"></stop><stop offset="0.56" stop-color="#FF7EB0"></stop><stop offset="0.95" stop-color="#4B73FF"></stop></linearGradient></defs></svg></div></div><!--/$--><!--/$--></div><!--$--><!--/$--><script nonce="ewtIxmFP6jGncGNY3473kg==" class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/index-CX3_Gaxu.js","/assets/app-boot-DSmoEnIf.js","/assets/vendor-sentry-Dw4hRRNd.js","/assets/vendor-react-CpWG0IX1.js","/assets/rolldown-runtime-hTy8W7Rj.js","/assets/vendor-datefns-iiuNtnjD.js","/assets/vendor-motion-DDZ7Z-J6.js","/assets/i18n-fn/slackPage-D2DIoi3w.js","/assets/i18n-fn/_eager-BmOruZu_.js","/assets/i18n-fn/hrLandingPage-nX4BnkQZ.js","/assets/i18n-fn/forWorkPage-hRlgA3R2.js","/assets/i18n-fn/forMarketersPage-DeQWwPjg.js","/assets/i18n-fn/abuseTrademark-Bou4krlo.js","/assets/i18n-fn/_misc-zs1LPwsQ.js","/assets/i18n-fn/abuseDmca-DW3NAxgX.js","/assets/i18n-fn/abuseDisabled-C1lCnBD5.js","/assets/i18n-fn/abuseCounter-T-Rc9dOT.js","/assets/i18n-fn/abuseAppeal-B0mGzXk5.js","/assets/vendor-overlay-_OMgd7JN.js","/assets/vendor-firebase-AQ64xvEl.js","/assets/vendor-radix-C4tkfYF5.js","/assets/vendor-firebase-core-BTqSu8a7.js","/assets/vendor-tanstack-JVngHMhU.js","/assets/vendor-base-ui-DLubImiB.js","/assets/app-shared-B1H5bML3.js","/assets/vendor-lodash-Cz-OQOiW.js","/assets/i18n-fn/workspaceChat-CUd2jxhB.js","/assets/i18n-fn/slackSettings-CfN01Gp7.js","/assets/i18n-fn/editorNav-BWwXpCtK.js","/assets/i18n-fn/checkout-DfP4mFwi.js","/assets/i18n-fn/btsSweden2026Page-D5ghE8Uv.js","/assets/i18n-fn/auth-b066rNmE.js","/assets/i18n-fn/accountSettings-CXfRlQui.js","/assets/vendor-util-Bt3YrBMF.js","/assets/vendor-schema-BlGzOUPt.js"],scripts:$R[5]=[$R[6]={attrs:$R[7]={type:"module",async:!0,src:"/assets/index-CX3_Gaxu.js"}}],css:$R[8]=["/assets/app-shared-DHj4jd-G.css","/assets/app-boot-CmdFWRqK.css"]},"/_authBridge":$R[9]={preloads:$R[10]=["/assets/_authBridge-CJm_YSvK.js"]},"/_authBridge/auth-bridge":$R[11]={preloads:$R[12]=["/assets/auth-bridge-dAytotMF.js","/assets/useHasLoginSessionId-BuVIgm_g.js","/assets/useTailscaleConnection-21yBXpyn.js","/assets/ui-alert-DzPK0_13.js","/assets/app-lazy-shared-C98TEb2B.js","/assets/ui-icon-eye-B-M14T-d.js"],css:$R[13]=["/assets/app-lazy-shared-BFr6NeXy.css"]}}},matches:$R[14]=[$R[15]={i:"__root__ ",u:1785503841855,s:"success",b:$R[16]={platformAppVersion:null,locale:"en",routePathname:"/auth-bridge"},l:$R[17]={sessionVerdictPromise:$R[18]=($R[19]=($R[20]=()=>{let e={p:0,s:0,f:0};return e.p=new Promise((t,n)=>{e.s=t,e.f=n}),e})()).p,sessionHint:$R[21]={present:!1},sessionHintUnreliable:!1,featureFlags:$R[22]={"health-check-brief-chat-context":!0,"health-check-run-details-ui":!0,"connectors-end-user":!0,"go-api-sandbox-keepalive":!0,"home-remove-launch-pill":"treatment","cancellation-credit-downgrade-offer":!0,"security-dependency-fix":!0,"abuse-intake-forms":!0},isSidebarCollapsed:!1,consentBucket:"eu_lite"},ssr:!0},$R[23]={i:" _authBridge ",u:1785503841853,s:"pending",ssr:!1},$R[24]={i:" _authBridge auth-bridge auth-bridge",u:1785503841853,s:"pending",ssr:!1}],lastMatchId:" _authBridge auth-bridge auth-bridge"})($R["tsr"]);($R=>($R[26]=(e,t)=>{e.s(t),e.p.s=1,e.p.v=t})($R[19],$R[25]={kind:"unknown"}))($R["tsr"]);$_TSR.e();document.currentScript.remove()</script><script type="module" async="" src="/assets/index-CX3_Gaxu.js" nonce="ewtIxmFP6jGncGNY3473kg=="></script></body></html>
+# Lecture 1.3 — Bash hands-on 🖥️
+
+Companion exercises for **Lecture 1.3 – Bash Intro** (Data Engineering, week 33).
+Work through it top to bottom in a terminal. Type the commands — don't paste them.
+Copy-paste teaches your clipboard, not you.
+
+> **Where do I run this?**
+> macOS/Linux: your normal terminal.
+> Windows: WSL 2, or a GitHub Codespace in the browser (`Code ▸ Codespaces ▸ Create`)
+> — a Codespace is a Linux box, so every command below works unchanged.
+
+Files in this folder:
+
+| File | What it is |
+| --- | --- |
+| `README.md` | this walkthrough |
+| `movefiles.sh` | the lecture demo script (create/move/clean up) |
+| `pythonvenv.sh` | bootstrap a Python project the way we will do all course |
+
+---
+
+## 0. Where am I? 🧭
+
+A shell session always has a *current directory*. Every relative path is
+interpreted from there, which is why "it works on my machine" so often means
+"I ran it from a different folder".
+
+```bash
+pwd                 # print working directory
+ls -al              # everything, including dotfiles, with permissions
+cd ..               # up one level (the parent)
+cd -                # back to where I just was
+cd                  # straight home
+```
+
+Set up a workspace for the whole lecture:
+
+```bash
+mkdir -p de-lecture1/data/weather
+cd de-lecture1
+tree . 2>/dev/null || find . -type d
+```
+
+`mkdir -p` creates parents as needed **and** does not complain if the folder
+already exists — that is exactly what you want inside a script.
+
+---
+
+## 1. Reading the manual (without an LLM) 📖
+
+Your model of choice will be down, rate-limited, or not allowed on the exam.
+The docs ship with the machine:
+
+```bash
+man ls              # q to quit, / to search
+ls --help | head -20
+tldr tar            # if installed: examples instead of prose
+type -a ls          # is it a binary, an alias, or a shell builtin?
+```
+
+**Exercise 0.** Use `man ls` to find the flag that sorts by modification time,
+and the one that prints human-readable file sizes. Combine them.
+
+---
+
+## 2. echo, dates and variables 🗓️
+
+`echo` prints. It is also the fastest way to check what a variable actually
+contains before a script eats it.
+
+```bash
+echo "Data engineering: 10% modelling, 90% wondering why the file is empty."
+echo -e "line one\nline two"        # -e turns on escape sequences
+```
+
+Timestamps are the bread and butter of ingestion — every raw file you land
+should say *when* it landed:
+
+```bash
+date                                 # local default format
+date +%Y-%m-%d                       # 2026-08-11
+date -u "+%Y-%m-%dT%H:%M:%SZ"        # UTC, ISO 8601 — use this in pipelines
+```
+
+Store it in a variable and reuse it:
+
+```bash
+STAMP=$(date -u +%Y%m%d_%H%M)
+echo "Run started at $STAMP"
+echo "Writing to data/weather/${STAMP}.json"
+```
+
+Two rules that will save you hours:
+
+* Always `"$QUOTE"` your variables — otherwise a space in a filename becomes
+  two arguments.
+* `${STAMP}` braces let you glue a variable to text: `${STAMP}.json`.
+
+---
+
+## 3. Download and land some real data 💾
+
+We will grab hourly temperature readings for Göteborg from SMHI’s open API and land it as
+a timestamped raw file — the smallest possible version of an ingestion job.
+
+```bash
+cd ~/de-lecture1
+STAMP=$(date -u +%Y%m%d_%H%M)
+URL="https://opendata-download-metobs.smhi.se/api/version/1.0/parameter/1/station/71420/period/latest-hour/data.json"
+
+curl -sS -f "$URL" -o "data/weather/${STAMP}.json"
+ls -lh data/weather/
+```
+
+* `-s` silent, `-S` but still show errors, `-f` fail loudly on HTTP 404/500
+  instead of writing an HTML error page into your data lake.
+
+Now look at it. Never trust a file you have not looked at:
+
+```bash
+cat data/weather/${STAMP}.json | head -c 300; echo
+jq '.station.name, .value[0]' data/weather/${STAMP}.json   # if jq is installed
+wc -c data/weather/${STAMP}.json
+```
+
+**Exercise 1.** Download the file twice, one minute apart. Confirm you got two
+files, not one overwritten file. Why does the timestamp in the name matter?
+
+---
+
+## 4. Looking inside big files 🔍
+
+You will meet CSVs too large for VS Code. The shell does not care about size.
+
+```bash
+printf 'id,city,pm25\n1,Göteborg,7\n2,Stockholm,9\n3,Malmö,12\n' > data/cities.csv
+
+head -2 data/cities.csv        # first rows — check the header
+tail -1 data/cities.csv        # last row — check the file is complete
+wc -l data/cities.csv          # how many rows (header included!)
+cut -d, -f2 data/cities.csv    # just the city column
+grep -i malmo data/cities.csv || grep -i "Malmö" data/cities.csv
+less data/cities.csv           # scroll, q to quit
+```
+
+---
+
+## 5. Pipes and redirection 🔗
+
+One tool, one job; the pipe glues them together.
+
+```bash
+ls data | wc -l                        # count entries
+tail -n +2 data/cities.csv | sort -t, -k3 -nr | head -1   # highest pm25
+echo "run ok $(date -u +%FT%TZ)" >> ingest.log            # append, don't clobber
+curl -sS -f "$URL" | jq '.value[0].value' > data/latest_value.json  # no temp file needed
+```
+
+`>` overwrites, `>>` appends. Getting these two mixed up is a rite of passage;
+do it here rather than in production.
+
+---
+
+## 6. Your first script 📂
+
+A script is just the commands you already typed, saved so future-you does not
+have to remember them.
+
+```bash
+touch init_repo.sh
+nano init_repo.sh      # or: code init_repo.sh / vim init_repo.sh
+```
+
+Paste this in:
+
+```bash
+#!/bin/bash
+set -euo pipefail      # stop on error, on unset variable, on failed pipe
+
+echo "Initialising project layout…"
+mkdir -p theory code-alongs explorations data/raw data/processed
+touch theory/.gitkeep code-alongs/.gitkeep data/raw/.gitkeep
+
+for i in {1..5}; do
+    echo "notes for session $i" > "explorations/session$i.md"
+done
+
+echo "Done. Structure:"
+ls -R . | head -30
+```
+
+The shebang `#!/bin/bash` tells the OS which interpreter to use.
+`set -euo pipefail` is the single most valuable line in the file: without it a
+failing command in the middle is silently ignored and the script "succeeds".
+
+Run it:
+
+```bash
+./init_repo.sh
+```
+
+Permission denied ❌ — expected. Look at why, then fix it:
+
+```bash
+ls -al init_repo.sh     # -rw-r--r--  : no x, so nothing may execute it
+chmod +x init_repo.sh   # add the execute bit
+ls -al init_repo.sh     # -rwxr-xr-x
+./init_repo.sh
+```
+
+(`bash init_repo.sh` also works and skips the `chmod` — you are handing the
+file to an interpreter instead of asking the OS to execute it.)
+
+Tidy up when you are done:
+
+```bash
+mv *.md explorations/ 2>/dev/null
+rm -rf theory code-alongs explorations
+```
+
+`rm -rf` does not ask, does not use a trash can, and does not care how
+important the folder was. Read the line twice before pressing Enter.
+
+---
+
+## 7. The two scripts in this folder
+
+```bash
+bash movefiles.sh      # the lecture demo: create, write, move, clean up
+bash pythonvenv.sh     # project bootstrap: venv + dependencies + requirements
+```
+
+Open both in an editor first and predict what they will do — then run them and
+check whether you were right.
+
+---
+
+## 8. Exercises ✅
+
+**Core** — from the lecture:
+
+1. Create a folder `folder1`.
+2. Create two `.txt` files inside it, each with one line of text.
+3. Navigate back out of the folder.
+4. Create `folder2`.
+5. Move the files from `folder1` to `folder2`.
+6. Delete `folder1`.
+7. Prove each step with `ls -al` / `pwd` before moving on.
+
+**Then** — data-flavoured:
+
+8. Land the SMHI file into `data/weather/` with a UTC timestamp in the name.
+9. Count the lines of `data/cities.csv` *without* the header row.
+10. Append one line per run to `ingest.log`, then show only the last 3 runs.
+11. Find every `.md` file under your project: `find . -name "*.md"`.
+
+**Advanced** — scripting:
+
+12. Write `ingest.sh` that: makes `data/raw/` if missing, downloads the SMHI
+    JSON to a timestamped file, logs success or failure to `ingest.log`, and
+    exits non-zero if the download fails. Start with `set -euo pipefail`.
+13. Make it executable with `chmod +x` and run it via `./ingest.sh`.
+14. Loop over the files in `data/raw/` and print name + size for each.
+15. Bonus: add `--dry-run` handling, so `./ingest.sh --dry-run` only prints the
+    commands it *would* run.
+
+---
+
+## 9. Survival kit 🧰
+
+| Keys / command | Why you care |
+| --- | --- |
+| `Tab` | complete paths; also tells you when a path is wrong |
+| `Ctrl+R` | search your command history — you type the good ones once |
+| `Ctrl+C` / `Ctrl+D` | stop a running command / end input |
+| `↑` | the most-used key in data engineering |
+| `history \| grep curl` | what did I actually run an hour ago? |
+| `man` / `--help` / `tldr` | documentation that works offline |
+| `set -euo pipefail` | scripts that fail loudly instead of quietly |
+
+## Resources
+
+* [The Missing Semester of Your CS Education (MIT)](https://missing.csail.mit.edu/) — lectures 1–3
+* [ExplainShell](https://explainshell.com/) — paste a command, get every flag explained
+* [ShellCheck](https://www.shellcheck.net/) — linter for your scripts
+* `man bash` — when you want the whole truth
