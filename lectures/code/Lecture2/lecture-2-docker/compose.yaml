@@ -1,0 +1,14 @@
+# Advanced exercise: one command instead of a remembered `docker run` line.
+#   docker compose up --build
+#   docker compose down
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      GREETING: "Hello from Compose"
+    volumes:
+      # Live reload: your source is mounted, not copied.
+      - ./app.py:/app/app.py
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

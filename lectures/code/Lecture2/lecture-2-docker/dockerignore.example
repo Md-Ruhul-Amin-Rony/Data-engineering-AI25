@@ -1,0 +1,11 @@
+# Rename this file to .dockerignore in your project.
+# Everything listed here is kept OUT of the build context, which means
+# smaller images, faster builds, and no secrets baked into a layer.
+.git
+.venv
+venv
+__pycache__/
+*.pyc
+.env
+data/
+*.md

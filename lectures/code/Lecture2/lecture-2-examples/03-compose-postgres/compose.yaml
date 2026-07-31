@@ -1,0 +1,35 @@
+# No `version:` key — it has been obsolete since Compose v2 and only earns you
+# a warning.
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # "db" is the service name below, resolved by Compose's DNS.
+      # psycopg 3 driver => postgresql+psycopg://
+      DATABASE_URL: postgresql+psycopg://postgres:password@db:5432/mydatabase
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    volumes:
+      # Seed SQL, run once on an empty data directory.
+      - ./database_init.sql:/docker-entrypoint-initdb.d/database_init.sql:ro
+      # Named volume: the rows survive `docker compose down`.
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d mydatabase"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:
