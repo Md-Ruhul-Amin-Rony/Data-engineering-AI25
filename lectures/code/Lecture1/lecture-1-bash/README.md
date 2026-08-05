@@ -225,6 +225,13 @@ important the folder was. Read the line twice before pressing Enter.
 
 ## 7. The two scripts in this folder
 
+You've been working in `~/de-lecture1` since section 0 — these two scripts live
+back in the repo, not there. `cd` back first:
+
+```bash
+cd /workspaces/Data-engineering-AI25/lectures/code/Lecture1/lecture-1-bash
+```
+
 ```bash
 bash movefiles.sh      # the lecture demo: create, write, move, clean up
 bash pythonvenv.sh     # project bootstrap: venv + dependencies + requirements
