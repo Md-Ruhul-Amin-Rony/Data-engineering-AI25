@@ -61,8 +61,17 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 Open `/health`, `/latest` and `/docs` (click the forwarded-port notification
 in your Codespace). Then `Ctrl+C`.
 
-`--host 0.0.0.0` matters even running bare like this — it's the same rule
-that bites people inside containers, so it's worth the habit now.
+`--host 0.0.0.0` matters even running bare like this. By default `uvicorn`
+binds to `127.0.0.1` — "only accept connections that originate from this same
+machine." Right now that's not a problem: your browser and the server are
+both in the same Codespace, so it still works. But port-forwarding (what
+Codespaces does to get `/docs` into your browser, and what `docker run -p`
+does for a container) works by having something *outside* connect in — and
+`127.0.0.1` refuses exactly that, no matter what port you forward. The fix is
+always the same: bind to `0.0.0.0`, "accept connections on any network
+interface." Build the habit here, where it's invisible, so it's not a
+surprise once it's the actual reason `curl` says connection refused inside a
+container.
 
 ---
 
@@ -176,6 +185,11 @@ docker run --rm -p 8000:8000 -v ./data:/app/data weather-api:0.1
 ---
 
 ## 7. Exercises ✅
+
+Core deliberately repeats Sections 1–2 — the point is to see if you can do it
+again without the walkthrough open next to you, not to learn something new.
+Then is where it gets new: things that were only briefly demoed above, now
+for you to do unaided.
 
 **Core** — do these first:
 

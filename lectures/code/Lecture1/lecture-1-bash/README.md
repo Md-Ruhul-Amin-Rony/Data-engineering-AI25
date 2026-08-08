@@ -15,7 +15,6 @@ Files in this folder:
 | --- | --- |
 | `README.md` | this walkthrough |
 | `movefiles.sh` | the lecture demo script (create/move/clean up) |
-| `pythonvenv.sh` | bootstrap a Python project the way we will do all course |
 
 ---
 
@@ -33,9 +32,11 @@ cd -                # back to where I just was
 cd                  # straight home
 ```
 
-Set up a workspace for the whole lecture:
+Set up a workspace for the whole lecture. Go home first, so it ends up
+somewhere predictable regardless of where you were just poking around:
 
 ```bash
+cd
 mkdir -p de-lecture1/data/weather
 cd de-lecture1
 tree . 2>/dev/null || find . -type d
@@ -223,9 +224,9 @@ important the folder was. Read the line twice before pressing Enter.
 
 ---
 
-## 7. The two scripts in this folder
+## 7. The script in this folder
 
-You've been working in `~/de-lecture1` since section 0 — these two scripts live
+You've been working in `~/de-lecture1` since section 0 — this script lives
 back in the repo, not there. `cd` back first:
 
 ```bash
@@ -234,15 +235,18 @@ cd /workspaces/Data-engineering-AI25/lectures/code/Lecture1/lecture-1-bash
 
 ```bash
 bash movefiles.sh      # the lecture demo: create, write, move, clean up
-bash pythonvenv.sh     # project bootstrap: venv + dependencies + requirements
 ```
 
-Open both in an editor first and predict what they will do — then run them and
+Open it in an editor first and predict what it will do — then run it and
 check whether you were right.
 
 ---
 
 ## 8. Exercises ✅
+
+Core repeats what `movefiles.sh` does — the point is doing it by hand, not
+watching it. Then and Advanced revisit Sections 3–6 unaided, with new data,
+building up to a script of your own.
 
 **Core** — from the lecture:
 
