@@ -2,7 +2,7 @@
 
 Companion exercises for **Lecture 2.1 – Containers & Docker** (Data Engineering,
 week 33). This is the exercise the lecture and self-study actually build —
-not [`lecture-2-docker/`](../lecture-2-docker/README.md), which is a separate,
+not [`lecture-2-extra/`](../lecture-2-extra/README.md), which is a separate,
 optional bonus exercise with a different sample app.
 
 Goal by the end: a small FastAPI service, built into an image, running as a
