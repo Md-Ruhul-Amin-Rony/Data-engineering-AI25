@@ -1,12 +1,16 @@
 #!/bin/bash
 
 # Create a new directory for the scenario
-mkdir merge-conflict
+mkdir -p merge-conflict
 cd merge-conflict
 
 # Initialize a new git repository
 git init
 git checkout -b main
+
+# Local identity for this scenario repo, in case global config isn't set yet
+git config user.name "Student"
+git config user.email "student@example.local"
 
 # Create an initial commit
 echo "This is the initial content of the file." > conflict-file.txt

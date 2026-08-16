@@ -1,12 +1,16 @@
 #!/bin/bash
 
 # Create a new directory for the scenario
-mkdir restore-reset
+mkdir -p restore-reset
 cd restore-reset
 
 # Initialize a new git repository
 git init
 git switch -c main
+
+# Local identity for this scenario repo, in case global config isn't set yet
+git config user.name "Student"
+git config user.email "student@example.local"
 
 # Create an initial commit
 echo "Initial content" > file.txt
