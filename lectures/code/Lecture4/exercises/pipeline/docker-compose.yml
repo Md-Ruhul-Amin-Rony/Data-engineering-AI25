@@ -1,0 +1,48 @@
+# One file, three services, one command:  docker compose up --build
+#
+# Compose creates a network for this project automatically and registers each
+# service under its own name on it. That is why the ingestion service reaches
+# the database at host `db` - no `docker network create` needed.
+
+name: weatherapp
+
+services:
+  db:
+    image: postgres:16-alpine
+    env_file: .env
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+      # Runs 01_*.sql then 02_*.sql, in filename order, but ONLY when the
+      # volume is empty. To re-run them: docker compose down -v
+      - ./database/init:/docker-entrypoint-initdb.d
+    ports:
+      # host:container. 5433 on the host so we don't collide with a Postgres
+      # that may already be installed on your machine. Inside the network,
+      # everything still talks to port 5432.
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  ingestion:
+    build: ./ingestion
+    env_file: .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      # Waits for the healthcheck above, not just for the container to exist.
+      # Without this, ingestion can start before Postgres accepts connections.
+      db:
+        condition: service_healthy
+
+volumes:
+  dbdata:
