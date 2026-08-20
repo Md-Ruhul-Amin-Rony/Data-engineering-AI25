@@ -57,7 +57,7 @@ it has to pull the Postgres, Adminer, and Python images.
 
 Then:
 
-- **Ingest a day:** <http://localhost:8000/ingestion?location=Stockholm&date=2026-08-16>
+- **Ingest a day:** <http://localhost:8000/ingestion?location=Stockholm&date=2026-08-21>
 - **Look at the data:** <http://localhost:8080> (Adminer)
   - System: **PostgreSQL** ← it defaults to MySQL, change it or nothing works
   - Server: **db** ← not `localhost`; Adminer runs inside the Docker network
