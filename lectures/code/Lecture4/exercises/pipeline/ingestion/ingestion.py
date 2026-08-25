@@ -68,3 +68,8 @@ def ingestion(location: str, date: str):
         "date": date,
         "rows_inserted": len(hours),
     }
+
+
+
+
+
