@@ -44,4 +44,11 @@ def whoami():
 # @app.get("/rows")
 # def rows():
 #     # count the lines in data/cities.csv and return {"rows": n}
-#     ...
+from pathlib import Path
+
+@app.get("/rows")
+def rows():
+    cities_file = Path("../../../../de-lecture1/data/cities.csv")
+    with cities_file.open(encoding="utf-8") as file:
+        row_count = sum(1 for _ in file) - 1
+    return {"rows": row_count}
