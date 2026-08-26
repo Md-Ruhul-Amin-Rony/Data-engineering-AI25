@@ -14,7 +14,7 @@ app = FastAPI(title="de-hello", version="0.1.0")
 
 # Read at import time on purpose: a container gets its config from the
 # environment, not from a file you forgot to copy into the image.
-GREETING = os.getenv("GREETING", "Hello from inside the container")
+GREETING = os.getenv("GREETING", "Hello from inside the.....")
 
 
 @app.get("/")
