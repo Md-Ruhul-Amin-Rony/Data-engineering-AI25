@@ -51,6 +51,9 @@ Välj en av AWS, Azure eller Google Cloud. Leta upp följande på leverantörens
 3. Pris för att lagra 10 GB och för att föra ut 10 GB data ur leverantörens nät.
 4. Vad ingår i free tier, och vad händer när den tar slut?
 
+Fördela arbetet i gruppen: varje person ansvarar för minst en punkt och sparar
+länken till sin prissida. Samla sedan svaren tillsammans.
+
 Skriv ner svaren och länkarna till prissidorna. Ta med dem till tisdagens lektion.
 
 ## Klart när
