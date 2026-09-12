@@ -237,7 +237,7 @@ men ni ska kunna motivera valet och visa att ni följt det.
 | Data governance-uppgiften (avsnitt 5) | Dokument i repot | 11/9 |
 | Redovisning i grupp | Muntlig presentation, 15 min + frågor | 17/9 |
 | Fungerande system | Publik URL + kodrepo | 8/10 |
-| Individuell analys av tekniskt bidrag | Skriftlig, 2–4 sidor, individuell | 5/10 |
+| Individuell analys av tekniskt bidrag | Skriftlig, 2–4 sidor, individuell | 9/10 |
 | Slutpresentation med live-demo | Muntlig, 20 min + frågor | 8/10 |
 | Projektrapport | Skriftlig, gruppgemensam | 8/10 |
 | Retrospektiv och utvärdering | Skriftlig, bifogas rapporten | 8/10 |
