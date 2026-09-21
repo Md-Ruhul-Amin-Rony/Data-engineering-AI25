@@ -13,7 +13,7 @@ load_dotenv()
 app = FastAPI()
 
 DB_SETTINGS = {
-    "host": "localhost",
+    "host": os.getenv("POSTGRES_HOST", "db"),
     "port": 5432,
     "user": os.getenv("POSTGRES_USER"),
     "password": os.getenv("POSTGRES_PASSWORD"),

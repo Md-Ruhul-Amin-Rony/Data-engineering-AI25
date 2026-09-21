@@ -3,13 +3,13 @@ import time
 import duckdb
 
 input("Press to show first 5 from CSV file:\n")
-query_str_csv = "SELECT * FROM 'concerts.csv' LIMIT 5";
+query_str_csv = "SELECT * FROM 'concerts_small.csv' LIMIT 5";
 response = duckdb.sql(query_str_csv)
 print(response)
 
 
 input("Press to show average price from CSV file:\n")
-query_str_agg = "SELECT venue, avg(price) FROM 'concerts.csv' GROUP BY venue;"
+query_str_agg = "SELECT venue, avg(price) FROM 'concerts_small.csv' GROUP BY venue;"
 t1 = time.time()
 response = duckdb.sql(query_str_agg)
 t2 = time.time()
